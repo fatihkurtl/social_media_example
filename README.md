@@ -1,29 +1,33 @@
-Social Media Application Example Built with Svelte and Sanic
+# Social Media Application Example Built with Svelte and Sanic
 
 This project is a simple social media application example built with Svelte and Sanic. The application allows users to create and view posts, as well as comment on existing posts.
-Getting Started
-Prerequisites
+
+## Getting Started
+
+### Prerequisites
 
 To run the application, you will need to have Node.js and Python 3 installed on your machine.
-Installing
-Frontend
+
+### Installing
+
+#### Frontend
 
 To start the frontend of the application, navigate to the "frontend" directory in your terminal and run the following commands:
 
-arduino
-
+```sh
 npm install
 npm run dev
+```
 
 This will install the necessary dependencies and start the development server on http://localhost:5000.
 Backend
 
 To start the backend of the application, navigate to the "backend" directory in your terminal and run the following commands:
 
-css
-
+```sh
 pip install -r requirements.txt
 python main.py
+```
 
 This will install the necessary Python packages and start the Sanic server on http://localhost:8000.
 Usage
